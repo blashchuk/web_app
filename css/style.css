@@ -1,0 +1,133 @@
+html, body{
+	margin: 0px auto;
+    min-width:960px;
+    max-width:960px;
+    border:1px solid;
+}
+
+#page{
+	text-align:left;
+	margin: 0 20px;
+}
+
+#userlist div{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#userlist span.user_span img.preview{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 5px;
+}
+
+#userlist div span.user_span a.user{
+	text-decoration: none;
+	color: blue;
+	font-size: large;
+}
+
+#userlist div span.user_span a.user:hover{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+h1{
+	text-align: center;
+}
+
+span.full_information{
+	float: left;
+}
+
+span.full_information b{
+	padding-left: 5px;
+}
+
+span.full_information img{
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+}
+
+div.userinfo{
+	border: 5px solid black;
+}
+
+.reposlist{
+	margin-left: 300px;
+	margin-right: 150px;
+}
+
+.reposlist li.repos_list_li:hover{
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.caption_repos_list{
+	list-style-type: none;
+	font-size: large;
+	margin: 0 0 7px -15px;
+}
+
+.back_button{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+span.full_information p{
+	margin-bottom: -5px;
+}
+
+div.info_repos{
+	 margin: 0 80px;
+}
+
+div.info_repos p{
+	text-align: center;
+	font-size: large;
+}
+
+ul.branches_repos_list{
+
+}
+
+ul.commits_repos_list{
+	 margin-top: 50px;
+	 list-style-type: none;
+	 margin-left: -13px;
+}
+
+ul.commits_repos_list li.commits_repos_list_li p{
+	text-align: left;
+	padding: 0 10px;
+}
+
+ul.commits_repos_list li.commits_repos_list_li p.commit_message{
+	display: none;
+	text-align: justify;
+}
+
+ul.commits_repos_list li.commits_repos_list_li{
+	border: 1px solid;
+}
+
+ul.commits_repos_list li.commits_repos_list_li:hover{
+	color: blue;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #f5f5f5;
+}
+
+ul.commits_repos_list li.caption_repos_list{
+	margin-left: 0px;
+}
+
+p.author_commit{
+	font-size: small !important;
+	color: green;
+}
